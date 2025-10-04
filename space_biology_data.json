@@ -1,0 +1,274 @@
+{
+  "experiments": [
+    {
+      "id": "BRIC-24",
+      "title": "Vacuole Formation in Microgravity",
+      "description": "Studies how microgravity affects plant cell vacuole formation and fusion, essential for understanding plant growth in space",
+      "impact": "Critical for developing sustainable food systems for long-duration Moon and Mars missions",
+      "organism": "Arabidopsis plants",
+      "mission": "ISS SpaceX CRS-22",
+      "duration": "30 days",
+      "category": "Plant Biology"
+    },
+    {
+      "id": "BRIC-LED",
+      "title": "Plant Defense Systems in Space",
+      "description": "Investigates how plant defense mechanisms respond to bacterial threats in microgravity environment",
+      "impact": "Ensures crop safety and disease resistance for space agriculture on Mars",
+      "organism": "Tomato plants",
+      "mission": "ISS Northrop Grumman CRS-20",
+      "duration": "10 days",
+      "category": "Plant Biology"
+    },
+    {
+      "id": "RadGene",
+      "title": "DNA Damage from Space Radiation",
+      "description": "Examines p53-dependent gene expression and DNA repair mechanisms in space radiation environment",
+      "impact": "Protects astronaut health during deep space missions to Mars by understanding radiation effects",
+      "organism": "Human lymphoblastoid cells",
+      "mission": "ISS Kibo facility",
+      "duration": "133 days",
+      "category": "Cell Biology"
+    },
+    {
+      "id": "APEX-10",
+      "title": "Plant-Microbe Interactions",
+      "description": "Tests whether beneficial microbes can improve plant stress resilience in microgravity",
+      "impact": "Increases plant productivity for sustainable life support systems on Moon and Mars",
+      "organism": "Tomato plants with Trichoderma harzianum",
+      "mission": "ISS Advanced Plant Experiments",
+      "duration": "15 days",
+      "category": "Plant Biology"
+    },
+    {
+      "id": "BRIC-25",
+      "title": "Bacterial Growth in Space",
+      "description": "Studies how bacterial communication systems (quorum sensing) change in microgravity",
+      "impact": "Safeguards astronaut health by understanding bacterial behavior in space environments",
+      "organism": "Staphylococcus aureus",
+      "mission": "ISS Northrop Grumman CRS-20",
+      "duration": "21 days",
+      "category": "Microbiology"
+    },
+    {
+      "id": "RR-20",
+      "title": "Estrogen Receptor Expression",
+      "description": "Investigates changes in estrogen receptor expression that may influence bone loss in space",
+      "impact": "Develops countermeasures for bone density loss during long-duration Mars missions",
+      "organism": "Laboratory mice",
+      "mission": "ISS SpaceX CRS-29",
+      "duration": "60 days",
+      "category": "Animal Biology"
+    },
+    {
+      "id": "Mouse-ES",
+      "title": "Embryonic Stem Cell Development",
+      "description": "Observes mouse embryonic stem cell development and DNA damage in space radiation",
+      "impact": "Understands reproductive health risks for multi-generational space colonization",
+      "organism": "Mouse embryonic stem cells",
+      "mission": "ISS Kibo facility",
+      "duration": "180 days",
+      "category": "Cell Biology"
+    },
+    {
+      "id": "BRIC-SyNRGE",
+      "title": "Symbiotic Root Nodulation",
+      "description": "Studies how nitrogen-fixing bacteria form nodules with plant roots in microgravity",
+      "impact": "Enables efficient nutrient cycling for sustainable agriculture on Mars",
+      "organism": "Legume plants with Rhizobia",
+      "mission": "ISS EXPRESS Rack",
+      "duration": "28 days",
+      "category": "Plant Biology"
+    }
+  ],
+  "papers": [
+    {
+      "title": "GeneLab: Omics database for spaceflight experiments",
+      "summary": "Comprehensive analysis of NASA's GeneLab database containing over 75 studies and 100+ omics datasets from space biology experiments, enabling systems biology approaches to understand spaceflight effects.",
+      "url": "https://academic.oup.com/bioinformatics/article/35/10/1753/5134065",
+      "relevance": 95
+    },
+    {
+      "title": "Space Biology Research for Moon to Mars Exploration",
+      "summary": "Review of NASA's strategy to advance understanding of biological responses to Moon, Mars, and deep space environments to support safe, productive human missions.",
+      "url": "https://science.nasa.gov/biological-physical/programs/space-biology/",
+      "relevance": 92
+    },
+    {
+      "title": "Cellular responses to space radiation in human cultured cells",
+      "summary": "Analysis of DNA damage, gene expression changes, and adaptive responses in human cells exposed to cosmic radiation during ISS experiments.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4990110/",
+      "relevance": 88
+    }
+  ],
+  "fortuneCookies": [
+    "\ud83c\udf31 Did you know? Plants grown in space have stronger cell walls but weaker roots - they're literally reaching for the stars!",
+    "\ud83e\uddec Space fact: Astronauts' DNA repair mechanisms work overtime in space, like having tiny molecular mechanics fixing cosmic damage!",
+    "\ud83e\udda0 Microbe magic: Bacteria in space form biofilms 3x thicker than on Earth - they're building space condos!",
+    "\ud83c\udf19 Lunar surprise: Moon dust is so abrasive it can damage spacesuits, but some plants might actually thrive in lunar soil!",
+    "\ud83e\uddea Space chemistry: Protein crystals grown in microgravity are larger and more perfect - space is nature's ultimate laboratory!",
+    "\ud83d\udc2d Mouse mystery: Mice in space sleep 40% more but are more active when awake - the ultimate space power nap!",
+    "\ud83c\udf3f Plant power: Space-grown lettuce has higher antioxidant levels - cosmic vegetables are superfoods!",
+    "\u2600\ufe0f Solar secret: Plants in space photosynthesize differently because they can access sunlight from all angles!",
+    "\ud83e\uddb4 Bone biology: Astronauts lose 1-2% of bone mass per month in space - that's like aging 10 years in 6 months!",
+    "\ud83e\uddec Gene surprise: Over 1,000 genes change expression in space - your body literally rewrites itself among the stars!"
+  ],
+  "knowledgeGraph": {
+    "nodes": [
+      {
+        "id": "microgravity",
+        "label": "Microgravity",
+        "type": "condition",
+        "size": 20
+      },
+      {
+        "id": "radiation",
+        "label": "Space Radiation",
+        "type": "condition",
+        "size": 18
+      },
+      {
+        "id": "plants",
+        "label": "Plant Biology",
+        "type": "organism",
+        "size": 22
+      },
+      {
+        "id": "cells",
+        "label": "Cell Biology",
+        "type": "organism",
+        "size": 20
+      },
+      {
+        "id": "microbes",
+        "label": "Microbiology",
+        "type": "organism",
+        "size": 18
+      },
+      {
+        "id": "dna-damage",
+        "label": "DNA Damage",
+        "type": "effect",
+        "size": 16
+      },
+      {
+        "id": "bone-loss",
+        "label": "Bone Loss",
+        "type": "effect",
+        "size": 16
+      },
+      {
+        "id": "immune-response",
+        "label": "Immune Response",
+        "type": "effect",
+        "size": 15
+      },
+      {
+        "id": "mars-mission",
+        "label": "Mars Mission",
+        "type": "application",
+        "size": 19
+      },
+      {
+        "id": "moon-mission",
+        "label": "Moon Mission",
+        "type": "application",
+        "size": 17
+      },
+      {
+        "id": "iss",
+        "label": "International Space Station",
+        "type": "platform",
+        "size": 21
+      }
+    ],
+    "links": [
+      {
+        "source": "microgravity",
+        "target": "plants",
+        "type": "affects"
+      },
+      {
+        "source": "microgravity",
+        "target": "cells",
+        "type": "affects"
+      },
+      {
+        "source": "microgravity",
+        "target": "bone-loss",
+        "type": "causes"
+      },
+      {
+        "source": "radiation",
+        "target": "dna-damage",
+        "type": "causes"
+      },
+      {
+        "source": "radiation",
+        "target": "immune-response",
+        "type": "affects"
+      },
+      {
+        "source": "plants",
+        "target": "mars-mission",
+        "type": "enables"
+      },
+      {
+        "source": "plants",
+        "target": "moon-mission",
+        "type": "enables"
+      },
+      {
+        "source": "cells",
+        "target": "mars-mission",
+        "type": "informs"
+      },
+      {
+        "source": "microbes",
+        "target": "mars-mission",
+        "type": "impacts"
+      },
+      {
+        "source": "iss",
+        "target": "plants",
+        "type": "hosts"
+      },
+      {
+        "source": "iss",
+        "target": "cells",
+        "type": "hosts"
+      },
+      {
+        "source": "iss",
+        "target": "microbes",
+        "type": "hosts"
+      }
+    ]
+  },
+  "missionImpacts": [
+    {
+      "mission": "Moon",
+      "experiment": "BRIC-24",
+      "impact": "Understanding plant cell vacuole formation helps design hydroponic systems for lunar greenhouses",
+      "timeline": "Critical for permanent lunar base food production by 2030"
+    },
+    {
+      "mission": "Mars",
+      "experiment": "APEX-10",
+      "impact": "Beneficial microbes could reduce fertilizer needs by 60% for Mars agriculture",
+      "timeline": "Essential for self-sustaining Mars colonies starting 2040"
+    },
+    {
+      "mission": "Mars",
+      "experiment": "RadGene",
+      "impact": "DNA repair insights help develop radiation protection protocols for 6-month Mars journey",
+      "timeline": "Prevents 15-30% increase in cancer risk during Mars transit"
+    },
+    {
+      "mission": "Moon",
+      "experiment": "RR-20",
+      "impact": "Bone loss countermeasures prevent 20% bone density loss during 18-month lunar missions",
+      "timeline": "Maintains astronaut mobility for surface operations by 2028"
+    }
+  ]
+}
